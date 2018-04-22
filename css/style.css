@@ -575,6 +575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   display: inline-block;
   line-height: 1;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
