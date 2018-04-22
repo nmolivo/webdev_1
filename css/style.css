@@ -570,14 +570,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
 }
 
-#featured-services .row {
-    text-align: center;
-}
-
-#featured-services .feature-center {
-    display: inline-block;
-}
-
 #featured-services i {
   color: #eb9444;
   font-size: 48px;
