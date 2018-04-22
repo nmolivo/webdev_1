@@ -575,6 +575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   line-height: 1;
+  padding-bottom: 10px;
 }
 
 #featured-services h4 {
