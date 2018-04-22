@@ -572,7 +572,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #featured-services i {
   color: #eb9444;
-  font-size: 48px;
+  font-size: 32px;
   display: inline-block;
   line-height: 1;
   padding-bottom: 10px;
@@ -584,11 +584,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
 }
 
-#featured-services h5 a {
+#featured-services h6 a {
   color: #fff;
 }
 
-#featured-services h5 a:hover {
+#featured-services h6 a:hover {
   color: #eb9444;
 }
 
