@@ -23,6 +23,7 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="lib/fancybox/jquery.fancybox.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -267,37 +268,26 @@
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-lg-4 col-md-6 box wow bounceInUp">
             <div class="icon"><i class="fa fa-bullseye"></i></div>
-            <!-- <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a> -->
-            <h4 class="title"><a href="" class = "link-preview" data-lightbox = "portfolio" data-title = "Cost Estimating">Cost Estimating</a></h4>
+            <h4 class="title"><a data-fancybox data-src="#costestimating" href="javascript:;">Cost Estimating</a></h4>
             <p class="description">Pantheon associates’ knowledge, tools, and techniques support understanding the likely cost impacts and associated risk of changes in a program’s schedule, capability requirements, and/or acquisition strategy to proactively drive data-driven solutions.</p>
+            <div style="display: none" id="costestimating">
+              <p><b>Test text</b></p>
+              <p>More and more and more test text.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s">
             <div class="icon"><i class="fa fa-pie-chart"></i></div>
             <h4 class="title"><a href="" class = "link-preview" data-lightbox = "portfolio" data-title = "Earned Value Management">Earned Value Management</a></h4>
             <p class="description">Pantheon’s associates apply EVM techniques coupled with its business analytics tools to integrate across a customer’s various contracts to maximize the probability of not only delivering on time and within budget on a specific project, but also across the entire program.</p>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.2s">
             <div class="icon"><i class="fa fa-cogs"></i></div>
             <h4 class="title"><a href="" class = "link-preview" data-lightbox = "portfolio" data-title = "Supplier Base Management">Supplier Base Management</a></h4>
             <p class="description">Pantheon’s associates assess the customer’s supplier base health as well as analyze sub-tier proposals and develop defendable, recommended Government positions.</p>
           </div>
-          <!-- <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-people-outline"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div> -->
 
         </div>
 
@@ -902,6 +892,7 @@
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <script src="lib/fancybox/jquery.fancybox.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
