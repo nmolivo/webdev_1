@@ -600,6 +600,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+.tooltip .tooltiptext {
+  width: 200px;
+  top: 100%;
+  left: 50%; 
+  margin-left: -100px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
 /* About Us Section
 --------------------------------*/
 #about {
